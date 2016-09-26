@@ -20,7 +20,11 @@ public class scanner {
 		System.out.println(loc);
 		kloc=loc/1000;
 	    System.out.println(kloc);
-	    
+	   
+	    while(scanner.hasNextLine())
+	
+		String st = scanner.nextLine();
+		loc++;
 }
 }
 
